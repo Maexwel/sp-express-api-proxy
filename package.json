@@ -1,0 +1,36 @@
+{
+  "name": "sp-proxy-api-structure",
+  "version": "1.0.0",
+  "description": "SharePoint API Proxy structure to develop TypeScript API that access data in SharePoint site collections",
+  "main": "src/index.ts",
+  "scripts": {    
+    "start": "nodemon dist/index",
+    "webpack": "webpack --config webpack.config.ts"
+  },
+  "author": "Maexwel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-sp-auth": "^2.5.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.4",
+    "@types/fs-extra": "^8.1.0",
+    "@types/node": "^13.11.0",
+    "@types/shelljs": "^0.8.7",
+    "fs-extra": "^9.0.0",
+    "nodemon": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "ts-loader": "^6.2.2",
+    "ts-node": "^8.8.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
